@@ -9,8 +9,7 @@ Agora o endpoint funciona como um caminho que leva até uma funcionalidade da su
 
 # 🧠 Perguntas para medir aprendizado (responder neste README)
 
-## ***Explique com suas palavras o papel de cada camada da arquitetura MVC usada neste projeto. 
-Como o Model, o Controller e a View interagem entre si?***
+## Explique com suas palavras o papel de cada camada da arquitetura MVC usada neste projeto. Como o Model, o Controller e a View interagem entre si?
 
 A arquitetura MVC do projeto organiza o código em três camadas que se comunicam de forma clara. O **Model** é responsável por acessar e manipular os dados no banco, como buscar, inserir ou atualizar informações dos professores.
 
@@ -20,8 +19,7 @@ A **View** é a parte visual do sistema, onde os dados são exibidos e os formul
 
 Esse ciclo permite que cada parte do sistema tenha uma responsabilidade clara, facilitando a manutenção e a organização do código.
 
-## ***Como ocorre o envio e o recebimento de dados no formato JSON neste projeto?
-Cite uma rota que responde em JSON e explique seu funcionamento.***
+## Como ocorre o envio e o recebimento de dados no formato JSON neste projeto? Cite uma rota que responde em JSON e explique seu funcionamento.
 
 Atualmente, o projeto não envia nem recebe dados diretamente em formato JSON. As rotas estão configuradas para usar formulários HTML com o método `POST`, e as respostas são páginas renderizadas com `EJS`, ou seja, HTML gerado no servidor.
 
@@ -41,8 +39,7 @@ router.get('/api/professores', professorController.apiList);
 ```
 Quando acessamos /api/professores, o servidor retorna os dados dos professores em JSON. Esse tipo de rota é útil para conectar com sistemas externos ou usar JavaScript no front-end.
 
-## ***Qual a importância de usar HTML básico com formulários e tabelas para organizar e manipular dados no navegador?
-Por que esse tipo de estrutura ainda é útil em projetos back-end com Node.js?***
+## Qual a importância de usar HTML básico com formulários e tabelas para organizar e manipular dados no navegador? Por que esse tipo de estrutura ainda é útil em projetos back-end com Node.js?
 
 Usar HTML básico com formulários e tabelas é importante porque oferece uma forma simples, direta e eficaz de **organizar e manipular dados no navegador**, especialmente em aplicações web com foco administrativo ou educacional, como neste projeto.
 
