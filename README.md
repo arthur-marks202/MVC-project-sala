@@ -8,6 +8,7 @@ Basicamente o controller é o cérebro por trás das ações. Ele vai compreende
 Agora o endpoint funciona como um caminho que leva até uma funcionalidade da sua aplicação. Por exemplo, quando alguém acessa esse caminho usando um método como (GET) ou (POST), o sistema vai entender que precisa executar uma ação, como mostrar dados, salvar um novo cadastro, atualizar algo ou excluir uma informação.
 
 # 🧠 Perguntas para medir aprendizado (responder neste README)
+
 ## ***Explique com suas palavras o papel de cada camada da arquitetura MVC usada neste projeto. 
 Como o Model, o Controller e a View interagem entre si?***
 
